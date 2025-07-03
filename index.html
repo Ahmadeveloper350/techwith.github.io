@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ahmad's Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+      <h3>codewithAhmad</h3>
+    <button class="menu-toggle" onclick="toggleMenu()">☰ Menu</button>
+    <nav class="nav-links mobile-hidden" id="navMenu">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <img src="portfolio.jpeg"  alt="Ahmad Bashir Salisu Profile Photo">
+  
+    <section id="about">
+      <h2>About Me</h2>
+      <p>I’m a Web Developer experienced in building websites using <strong>HTML, CSS, JavaScript, and PHP</strong>. I specialize in creating user-friendly, responsive, and efficient web applications.</p>
+      <p>I can help you build:</p>
+      <ul>
+        <li>Custom websites and landing pages</li>
+        <li>Forms and login systems</li>
+        <li>Personal blogs and portfolio sites</li>
+        <li>Responsive mobile-ready layouts</li>
+      </ul>
+    </section>
+    <img src="tech.jpg"  alt="Ahmad Bashir Salisu Profile Photo">
+  
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>PHP</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <div class="contact">
+        <a href="mailto:ahmadbashirsalisu549@gmail.com">📧 Email: ahmadbashirsalisu549@gmail.com</a>
+        <a href="tel:+2348106060115">📱 WhatsApp: +2348106060115</a>
+        <a href="https://facebook.com/AhmadAhmad" target="_blank">📘 Facebook: Ahmad Ahmad</a>
+        <a href="https://instagram.com/Ahmad/Ahmad" target="_blank">📸 Instagram: Ahmad Ahmad</a>
+        <a href="tel:+2349063594273">📲 Telegram: +2349063594273</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Ahmad Bashir Salisu. All rights reserved.
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      const nav = document.getElementById('navMenu');
+      nav.classList.toggle('mobile-hidden');
+      nav.classList.toggle('mobile-visible');
+    }
+  </script>
+</body>
+</html>
